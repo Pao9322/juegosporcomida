@@ -1,5 +1,5 @@
 #clase perosnaje
-class personaje():
+class Personaje():
 #constructor  (considera parámetros y valores asignados a atributos de instancia)
     def __init__(self, nombre):
         self.nombre = nombre
@@ -49,7 +49,7 @@ class personaje():
     @staticmethod
     def mostrar_dialogo_opcion(probabilidad_ganar):
         return int(input(
-            f"\n Con tu nivel actual, tienes {probabilidad_ganar * 100}%"
+            f"\n Con tu nivel actual, tienes {probabilidad_ganar * 100} %"
             "de probabilidades de ganarle al Orco.\n"
             "\n Si ganas, ganarás 50 puntos de experiencia y el orco perderá 30.\n"
             " Si pierdes, perderás 30 puntos de experiencia y el orco ganará 50.\n"
